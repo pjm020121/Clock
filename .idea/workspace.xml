@@ -97,6 +97,7 @@
       <workItem from="1703567283863" duration="76000" />
       <workItem from="1703567417549" duration="1262000" />
       <workItem from="1703568701580" duration="195000" />
+      <workItem from="1703568946452" duration="1377000" />
     </task>
     <servers />
   </component>
@@ -104,8 +105,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Clock_py$Clock.coverage" NAME="Clock 커버리지 결과" MODIFIED="1703568791402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Clock_py$Calculator.coverage" NAME="Calculator 커버리지 결과" MODIFIED="1703568819959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Infinite_Digit_Calculator/Python" />
+    <SUITE FILE_PATH="coverage/Clock_py$Clock.coverage" NAME="Clock 커버리지 결과" MODIFIED="1703570416120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StopWatch$StopWatch.coverage" NAME="StopWatch 커버리지 결과" MODIFIED="1701599669911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StopWatch_py$StopWatch.coverage" NAME="StopWatch 커버리지 결과" MODIFIED="1703566153599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

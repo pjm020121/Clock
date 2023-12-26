@@ -8,14 +8,14 @@ Library
 - datetime
 
 Class
-- CLOCK
+- Clock
 
 Method
 - init
-- REAL_TIME
+- Real_time
 - Update_time
 - Clock_on_resize
-- TIMER
+- Timer
 - Start_timer
 - Update_clock
 - Key_del_press
@@ -56,7 +56,7 @@ import re
 from tkinter import messagebox
 from datetime import datetime
 
-class CLOCK:
+class Clock:
 
     def __init__(self):
 
@@ -74,10 +74,10 @@ class CLOCK:
         self.module.bind("<Escape>", self.Exit)
 
         # method call
-        self.REAL_TIME()
+        self.Real_time()
 
     # real_time object
-    def REAL_TIME(self):
+    def Real_time(self):
 
         # real_time default structure
         self.module.title("Clock")
@@ -108,7 +108,7 @@ class CLOCK:
         self.label.config(font=updated_font)
 
     # timer object
-    def TIMER(self):
+    def Timer(self):
 
         # Timer default structure
         self.module.title("Timer")
@@ -233,16 +233,16 @@ class CLOCK:
         if self.reverse_stack:
             self.label.destroy()
             self.reverse_stack = False
-            self.TIMER()
+            self.Timer()
 
         # turn to real_time
         else:
             self.running = False
             self.entry.destroy()
             self.reverse_stack = True
-            self.REAL_TIME()
+            self.Real_time()
 
 if __name__ == "__main__":
     # CLOCK object generate
-    Clock_application = CLOCK()
+    Clock_application = Clock()
 
